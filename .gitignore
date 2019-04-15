@@ -1,3 +1,6 @@
 .DS_Store
 helloos.img
 z_tools/
+ipl.bin
+ipl.lst
+
