@@ -1,10 +1,10 @@
 
-# ƒfƒtƒHƒ‹ƒg“®ì
+# ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå‹•ä½œ
 
 default :
 	make img
 
-# ƒtƒ@ƒCƒ‹¶¬‹K‘¥
+# ãƒ•ã‚¡ã‚¤ãƒ«ç”Ÿæˆè¦å‰‡
 
 ipl.bin : ipl.nas Makefile
 	../../z_tools/nask ipl.nas ipl.bin ipl.lst
@@ -13,7 +13,7 @@ helloos.img : ipl.bin Makefile
 	../../z_tools/edimg   imgin:../../z_tools/fdimg0at.tek \
 		wbinimg src:ipl.bin len:512 from:0 to:0   imgout:helloos.img
 
-# ƒRƒ}ƒ“ƒh
+# ã‚³ãƒãƒ³ãƒ‰
 
 asm :
 	make -r ipl.bin
